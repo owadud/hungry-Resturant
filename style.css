@@ -1,10 +1,9 @@
-.navbar{
-   justify-content: center;
-    
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
-.form-control{
-    padding: 0.375rem 6.75rem;
-}
+
 #mealItems{
     display: flex;  
     flex-wrap: wrap;
@@ -13,11 +12,14 @@
     
     
 }
+.food img{
+    width: 100%;
+}
 .food{
         
-        padding: 2%;
-        width: 30%;
-        margin-left: 3%;
+        padding: 1%;
+        width: 19%;
+        margin-left: 1%;
         margin-bottom: 3%;
         cursor: pointer;
 
@@ -29,4 +31,7 @@
     text-transform: uppercase;
     
     
+}
+#mealDetails{
+    margin-top: 100px;
 }
