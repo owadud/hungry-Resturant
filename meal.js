@@ -3,6 +3,12 @@ const mealList = document.getElementById('mealItems');
 const mealDetails = document.getElementById('mealDetails');
 const notFound = document.getElementById("not-found");
 
+
+
+
+
+
+
 search.addEventListener('click', () => {
 
     searchValue = document.getElementById('search-bar').value;
@@ -55,7 +61,7 @@ const displayMeal = (meals) => {
             </ul>
         </div>
     </div>`;
-            
+            window.scroll(0,0);
 
         })
     })
